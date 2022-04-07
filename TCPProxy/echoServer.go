@@ -7,7 +7,7 @@ import (
 	"net"
 )
 
-func main() {
+func notMain1() {
 	listener, err := net.Listen("tcp", ":4242")
 	if err != nil {
 		log.Fatalln("Unable to bind to port")
